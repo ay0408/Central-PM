@@ -13,7 +13,8 @@ In "RunTime.ipynb", we measured the run time of solving the minimization problem
 
 ## Note
 
-For details of our methods and discussion, please see our paper entitled "Central Piecewise Mechanism for Numeric Queries".
+For details of our methods and discussion, please see our paper entitled "Central Piecewise Mechanism for Numeric Queries".  
+(cf. [Privacy-Optimized Randomized Response](https://github.com/ay0408/Optimized-RR), [Privacy-Optimized Piecewise Mechanism](https://github.com/ay0408/Generalized-PM))
 
 ### Contact
 Akito Yamamoto
