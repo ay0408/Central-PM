@@ -9,7 +9,15 @@ In "Multiple Numeric Queries" folder, we demonstrated the utility of the enhance
 In "RunTime.ipynb", we measured the run time of solving the minimization problems in the enhanced CPM and heuristic algorithm. 
 
 ## Future Directions
-・
+・Incorporating the concept of smooth (local) sensitivity for generating noise more in line with reality.
+
+・Improving the heuristic algorithm by performing a detailed theoretical analysis and developing methods for a larger $k$.
+
+・Considering situations where there are non-independent queries. (The computational complexity might be reduced by lowering the number of dimensions.)
+
+・Refining the method of determining the value of $b$. (e.g., Representing it as a function of $m$ and $\epsilon$.)
+
+・Finding appropriate initial values and bounds when solving optimization problems. (Actually, 'Positive directional derivative for linesearch' situation often occurs, so the results in our experiments may not be truly optimal. We do not yet know how to deal with this, and this will be another important future issue.)
 
 ## Note
 
