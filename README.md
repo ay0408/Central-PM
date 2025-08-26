@@ -12,6 +12,11 @@ In "Multiple Numeric Queries" folder, we demonstrated the utility of the enhance
 
 In "RunTime.ipynb", we measured the run time of solving the minimization problems in the enhanced CPM and heuristic algorithm. 
 
+## Important Notes
+The enhanced CPM is "privacy-optimized" under the condition that a value in a range closr to the true result is output with a higher probability (as in the original PM). Discussion on the handling and necessity of this constraint will need to be advanced in the future while taking into account the analysis accuracy as well. At that time, the forms of the probability density functions in staircase mechanisms [[Geng et al., 2015](https://doi.org/10.1109/JSTSP.2015.2425831), [Kulesza et al, 2025](https://proceedings.mlr.press/v258/kulesza25a.html)] may also be of reference.
+
+Ultimately, we aim to construct the truly optimized mechanism beyond the PM framework, using this study as a base point.
+
 ## Future Directions
 ・Incorporating the concept of smooth (local) sensitivity for generating noise more in line with reality.
 
