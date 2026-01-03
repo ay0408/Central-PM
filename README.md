@@ -1,6 +1,6 @@
 # Central Piecewise Mechanism
 
-We propose the central piecewise mechanism (CPM), a novel $\epsilon$-differentially private mechanim for a numeric query. The CPM has no complex hyper-parameters, and the variance of the output values is theoretically analyzed. By capturing the characteristics of global sensitivity in detail, the amount of noise can be reduced compared with that of the state-of-the-art method.  
+We propose the central piecewise mechanism (CPM), a novel bounded and unbiased $\epsilon$-differentially private mechanim for a numeric query. The CPM has no complex hyper-parameters, and the variance of the output values is theoretically analyzed. By capturing the characteristics of global sensitivity in detail, the amount of noise can be reduced compared with that of the state-of-the-art method.  
 Furthermore, we enhance the CPM for handling multiple numeric queries, which are independent of each other. This study considers, for the first time to our knowledge, a situation in which each query is assigned its own privacy level. Under this condition, the proposed method achieves the strongest privacy guarantees for the queries in their entirety when using the CPM. Moreover, we propose an efficient heuristic algorithm that provides a sub-optimal privacy guarantee within a practical time frame even when the number of queries increases.
 
 In "Output Variance" folder, we evaluated the output variance of the CPM. (The theoretical analysis is provided in the paper.) We also explored an appropriate value for the parameter $b$ in the CPM.
