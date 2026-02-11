@@ -10,7 +10,7 @@ In "Single Numeric Query" folder, we compared the output errors for a single num
 
 In "Multiple Numeric Queries" folder, we demonstrated the utility of the enhanced CPM and its heuristic algorithm by comparing with a straightforward approach, in terms of privacy guarantees and accuracy. When the required privacy level is assigned to each query, the proposed methods guarantee stronger privacy for the queries in their entirety. This conversely implies that given an overall privacy level, more privacy budget can be distributed to each query; therefore, the analysis accuracy can be improved. In the evaluation of accuracy, we used real census data (from [IPUMS International](https://international.ipums.org/international/)) as well.
 
-In "RunTime.ipynb", we measured the run time of solving the minimization problems in the enhanced CPM and heuristic algorithm. 
+In "RunTime" folder, we measured the run time of solving the minimization problems in the enhanced CPM and heuristic algorithm. 
 
 ## Important Notes
 The enhanced CPM is "privacy-optimized" under the condition that a value in a range closr to the true result is output with a higher probability (as in the original PM). Discussion on the handling and necessity of this constraint will need to be advanced in the future while taking into account the analysis accuracy as well. At that time, the forms of the probability density functions in staircase mechanisms [[Geng et al., 2015](https://doi.org/10.1109/JSTSP.2015.2425831), [Kulesza et al, 2025](https://proceedings.mlr.press/v258/kulesza25a.html)] may also be of reference.
