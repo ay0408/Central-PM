@@ -15,7 +15,7 @@ In "RunTime" folder, we measured the run time of solving the minimization proble
 ## Important Notes
 The enhanced CPM is "privacy-optimized" under the condition that a value in a range closr to the true result is output with a higher probability (as in the original PM). Discussion on the handling and necessity of this constraint will need to be advanced in the future while taking into account the analysis accuracy as well. At that time, the forms of the probability density functions in staircase mechanisms [[Geng et al., 2015](https://doi.org/10.1109/JSTSP.2015.2425831), [Kulesza et al, 2025](https://proceedings.mlr.press/v258/kulesza25a.html)] may also be of reference.
 
-Ultimately, we aim to construct the truly optimized mechanism beyond the PM framework, using this study as a base point.  
+Ultimately, we aim to construct the truly optimized mechanism beyond the PM framework, using this study as a base point. In particular, the continuous pursuit of (bounded and unbiased) mechanisms superior to the CPM for a single numeric query will also be essential. 
 
 ## Future Directions
 ・A more detailed analysis of the shape of the probability density function when $\epsilon$ is extremely small or $m$ is extremely large may be beneficial. For example, further deepening the theoretical discussion in Section IV.A and the supplementary material and considering deformations of the staircase-like portion of the probability density function (such as making it asymmetric) would be possible future directions.
@@ -28,7 +28,8 @@ Ultimately, we aim to construct the truly optimized mechanism beyond the PM fram
 
 ・Considering situations where there are non-independent queries. 
 
-・Finding appropriate initial values and bounds when solving optimization problems. (Actually, 'Positive directional derivative for linesearch' situation often occurs, so the results in our experiments may not be truly optimal. We do not yet know how to deal with this, and this will be another important future issue.)
+・Finding appropriate initial values and bounds when solving optimization problems. (Actually, 'Positive directional derivative for linesearch' situation often occurs, so the results in our experiments may not be truly optimal. In addition, errors regarding bounds constraints may occasionally occur. The primary aim of the experiments in this study was to broadly confirm the theory, so we ignored these warnings and errors; however, considering how to deal with them will be another important future issue if we aim for practical applications.)  
+(In my personal opinion, the current CPM is still far too dull, and constructing even a slightly more amusing mechanism should come before "application".)
 
 ## Note
 
