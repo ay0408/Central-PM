@@ -29,7 +29,7 @@ Ultimately, we aim to construct the truly optimized mechanism beyond the PM fram
 ・Considering situations where there are correlated queries. 
 
 ・Finding appropriate initial values and bounds when solving optimization problems. (Actually, 'Positive directional derivative for linesearch' situation often occurs, so the results in our experiments may not be truly optimal. In addition, errors regarding bounds constraints may occasionally occur. The primary aim of the experiments in this study was to broadly verify the theory, and we ignored these warnings and errors; however, considering how to deal with them will be another important future issue if we aim for practical applications.)  
-(In my personal opinion, the current CPM is still far too dull, and constructing even a slightly more amusing mechanism should come before "application".)
+(In my personal opinion, the current CPM is still far too dull, and constructing even a slightly more amusing mechanism should be more worthwhile than its "applications".)
 
 ## Note
 
