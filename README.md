@@ -33,7 +33,7 @@ Ultimately, we aim to construct the truly optimized mechanism beyond the PM fram
 
 ## Note
 
-For details of our methods and discussion, please see our paper entitled "Central Piecewise Mechanism for Numeric Queries" in press at IEEE Transactions on Privacy.  
+For details of our methods and discussion, please see our paper entitled "Central Piecewise Mechanism for Numeric Queries" (https://doi.org/10.1109/TP.2026.3669533) published in IEEE Transactions on Privacy.  
 (cf. [Privacy-Optimized Randomized Response](https://github.com/ay0408/Optimized-RR), [Privacy-Optimized Piecewise Mechanism](https://github.com/ay0408/Generalized-PM))
 
 ### Contact
